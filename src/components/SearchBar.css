@@ -16,6 +16,17 @@
   }
 }
 
+@media (prefers-color-scheme: dark) {
+  .searchBar {
+    border: 3px solid #ffffff;
+  }
+  .searchInputContainer input {
+    border: none;
+    background-color: #000000;
+    color: #ffffff;
+  }
+}
+
 .searchIconContainer {
   padding: 1em;
 }
@@ -26,6 +37,8 @@
 
 .searchInputContainer input {
   border: none;
+  height: 2.7em;
+  width: 20em;
 }
 .searchInputContainer input:focus {
   outline: none;

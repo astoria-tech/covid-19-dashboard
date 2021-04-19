@@ -25,6 +25,24 @@
   color: #FFFFFF;
 }
 
+@media (prefers-color-scheme: dark) {
+  .locationCard {
+    background-color: #B947A7;
+    ;
+    border-color: #ffffff;
+  }
+  
+  .locationCard.grey {
+    background-color: #541445;
+    ;
+  }
+  
+  .locationCard.black {
+    background-color: #332A32;
+    color: #FFFFFF;
+  }
+}
+
 .locationCard.hideCard {
   height: 0;
   visibility: hidden;
